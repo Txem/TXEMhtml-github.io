@@ -16,22 +16,42 @@
    table, th, td {
      border: 1px solid black;
    }
+      div {border: thin dotted black;}
+      * {
+        box-sizing: border-box;
+      }
+      .header {
+        border: 1px solid black;
+      }
+      .menu {
+        width: 20%;
+        float: left;
+        padding: 15px;
+        border: 1px solid black;
+      }
+      .main {
+        width: 75%;
+        float: left;
+        padding: 15px;
+        border: 1px solid black;
+      }
+
    </style>
-  </head>
+ </head>
 
   <body>
-   <header>
+   <div><header class="header">
      <h1 style="background-color:DodgerBlue;font-size:5.5vw">Who am I</h1>
-   </header>
-   <nav><h3>Something about Tim</h3></nav>
-   <aside><p>My first website page</p></aside>
-   <section> <h3 style="font-size:2.5vw">A Brief Introduction</h3>
+   </header></div>
+   <div><nav><h3 style="font-size:2.5vw">A Brief Introduction about Tim</h3></nav></div>
+   <div><aside class="header"><p>My first website page</p></aside></div>
+   <div><section class="main">
      <article>
        <table style="width:80%">
          <tr>
            <th>Facts about Tim</th>
-           <th>What Important to me</th>
-           <th>Some Lucky numbers to me</th>
+           <th>What important to me</th>
+           <th>Some lucky numbers to me</th>
          </tr>
          <tr>
            <td></td>
@@ -49,7 +69,19 @@
            <td>1109</td>
          </tr>
       </table>
+      <ol>
+          <li style="font-size:1vw"> Meta Data Example, <a href="childPages/Meta Data Example.html" target="-_blank">Open this in ATOM to see the meta data changes :)</a>
+          <li style="font-size:1vw"> Footer Blockquote Example, <a href="childPages/Footer Blockquote Example.html" target="_blank">Click Here</a>
+          <li style="font-size:1vw"> Template Examplar, <a href="childPages/template.html" target="_blank">Click Here</a>
+          <li style="font-size:1vw"> Headings and Paragraph Tags, <a href="childPages/Headings and Paragraph Tags.html" target="_blank">Click Here</a>
+          <li style="font-size:1vw"> Subscript and Superscript Tags, <a href="childPages/Subscript and Superscript Tags.html" target="_blank">Click Here</a>
+          <li style="font-size:1vw"> Image Lesson, <a href="childPages/Image Lesson.html" target="_blank">Click Here</a>
+          <li style="font-size:1vw"> Laying out DIVs (using HTML Boilerplate) <a href="childPages/Laying out DIVs (using HTML Boilerplate).html" target="_blank">Click Here</a>
+          <li style="font-size:1vw"> What this index page might look like with Flexbox <a href="childPages/Flexbox Index 2-column.html" target="_blank">Click Here</a>
+          <li style="font-size:1vw"> What this index page might look like with Flexbox <a href="childPages/Flexbox Index 3-column.html" target="_blank">Click Here</a>
+        </ol>
     </article>
+  </section>
       <p>&#128512;</p>
 
 
