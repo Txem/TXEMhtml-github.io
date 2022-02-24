@@ -1,10 +1,91 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+ <head>
     <meta charset="utf-8">
-    <title>Child Page Template</title>
+
+    <title>childPages Template</title>
+
+    <!-- Used by Google Search -->
+    <meta name="author" content="Tim Liu">
+    <meta name="description" content="Website about self introduction">
+    <meta name="keywords" content="Tim Liu, self introduction, HTML, learning">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <style>
+   table, th, td {
+     border: 1px solid black;
+   }
+      div {border: thin dotted black;}
+      * {
+        box-sizing: border-box;
+      }
+      .header {
+        border: 1px solid black;
+      }
+      .menu {
+        width: 20%;
+        float: left;
+        padding: 15px;
+        border: 1px solid black;
+      }
+      .main {
+        width: 80%;
+        float: right;
+        padding: 15px;
+        border: 1px solid black;
+      }
+      body {
+        background-image: url('https://ak.picdn.net/shutterstock/videos/27100648/thumb/1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+   </style>
   </head>
+
   <body>
-    This is only a template
-  </body>
+   <header class="header">
+     <h1 style="background-color:DodgerBlue;font-size:5.5vw">Who am I</h1>
+   </header>
+   <nav><h3 style="font-size:2.5vw">A Brief Introduction about Tim</h3></nav>
+   <aside class="menu"><p>My name is Tim and this is my first website</p></aside>
+   <section class="main">
+     <article>
+       <table style="width:80%">
+         <tr>
+           <th>What important to me</th>
+           <th>Some lucky numbers to me</th>
+         </tr>
+         <tr>
+           <td>Family</td>
+           <td>57</td>
+         </tr>
+         <tr>
+           <td>Friends</td>
+           <td>30</td>
+         </tr>
+         <tr>
+           <td>My Cat</td>
+           <td>1109</td>
+         </tr>
+      </table>
+      <ol>
+          <li style="font-size:1vw"> My Background, <a href="childPages/Meta Data Example.html" target="-_blank"></a>
+          <li style="font-size:1vw"> My Career Plans, <a href="childPages/Footer Blockquote Example.html" target="_blank">Click Here</a>
+          <li style="font-size:1vw"> Facts about Tim, <a href="childPages/template.html" target="_blank">Click Here</a>
+
+      </ol>
+    </article>
+    <p>&#128512;</p>
+  </section>
+ </body>
+ <footer>
+        <blockquote></blockquote>
+    <p>
+      <strong></strong>
+      <em>- <a href=""></a></em>
+    </p>
+    <p>&copy Tim Liu, powered by Txem in Github</p>
+  </footer>
 </html>
